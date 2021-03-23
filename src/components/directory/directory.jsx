@@ -12,7 +12,8 @@ class Directory extends React.Component {
                   title: 'hats',
                   imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
                   id: 1,
-                  linkUrl: 'shop/hats'
+                  // linkUrl: 'shop/hats'
+                  linkUrl: 'hats'
                 },
 
                 {
@@ -59,6 +60,8 @@ class Directory extends React.Component {
                         imageUrl= {section.imageUrl}
                         size={section.size}
                         title={section.title}
+                        history={section.history}
+                        linkUrl={section.linkUrl}
                     />
                     
                     )}
